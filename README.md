@@ -26,12 +26,12 @@ o One dirt
 o left, right, up, down moves the cleaner one grid, unless that grid is an obstacle.  
 o suck action that sucks one dirt.  
 o stop action does nothing.  
-§ The environment, agent type, locations of the obstacles, dirt, vacuum cleaners (our agent and other agents) will be provided in a text file.  
-§ Tie-breaker:  
+ § The environment, agent type, locations of the obstacles, dirt, vacuum cleaners (our agent and other agents) will be provided in a text file.  
+ § Tie-breaker:  
 o If required, the precedence used as a tie-breaker is as follows: left, right, down, up, stop, suck  
-§ Opponent vacuum cleaners, which are numbered with even digits, move randomly  
-§ Opponent vacuum cleaners, which are numbered with odd digits, move optimally  
-§ Your vacuum cleaner starts first, then other vacuum cleaners (ordered by their digits) move next to each other.  
+ § Opponent vacuum cleaners, which are numbered with even digits, move randomly  
+ § Opponent vacuum cleaners, which are numbered with odd digits, move optimally  
+ § Your vacuum cleaner starts first, then other vacuum cleaners (ordered by their digits) move next to each other.  
 Utility function:  
 The utility value at any node is calculated as follows:  
 - If your vacuum cleaner is in the same grid with one of the any other opponent, utility is set to -100 and the episode ends.  
@@ -43,12 +43,12 @@ where
 o x corresponds to obstacles  
 o c corresponds to your vacuum cleaner  
 o each <digit> corresponds to one of your opponents where  
-§ even <digit> opponents move randomly  
-§ odd <digit> opponents move optimally  
+ § even <digit> opponents move randomly  
+ § odd <digit> opponents move optimally  
 o . (dot) corresponds to the dirt  
   
 Output:  
-§ After running the search, you need to print out the following (to standard output):  
+After running the search, you need to print out the following (to standard output):  
 Action: <action>  
 Value: <value>  
 Util calls: <n-util-calls>  
