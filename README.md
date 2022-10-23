@@ -40,12 +40,12 @@ The utility value at any node is calculated as follows:
 Example input is like:  
 ![image](https://user-images.githubusercontent.com/81170575/197393568-80c70c55-30f6-400e-9112-a34ec58579d0.png)  
 where  
-o x corresponds to obstacles  
-o c corresponds to your vacuum cleaner  
-o each <digit> corresponds to one of your opponents where  
+- x corresponds to obstacles  
+- c corresponds to your vacuum cleaner  
+- each <digit> corresponds to one of your opponents where  
  § even <digit> opponents move randomly  
  § odd <digit> opponents move optimally  
-o . (dot) corresponds to the dirt  
+- . (dot) corresponds to the dirt  
   
 Output:  
 After running the search, you need to print out the following (to standard output):  
