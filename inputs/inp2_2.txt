@@ -1,0 +1,6 @@
+xxxxxxxxxx
+x        x
+x 1 x  . x
+xx.xx    x
+xxcxx  . x
+xxxxxxxxxx

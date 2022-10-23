@@ -1,0 +1,6 @@
+xxxxxxxxxx
+x c1...  x
+x 3.x .. x
+xx.xx    x
+xx xx  . x
+xxxxxxxxxx
