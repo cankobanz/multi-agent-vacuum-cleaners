@@ -4,8 +4,8 @@ Minimax algorithm and alpha-beta pruning are applied to solve competing vacuum c
 
 
 ### RUN CODE
-python <main.py> <search-type > <init-file> <n-actions>
-where
+	python <main.py> <search-type > <init-file> <n-actions>
+where  
 - for <search-type> :
 o min-max (no pruning)  
 o alpha-beta (pruning in MAX and MIN nodes)  
